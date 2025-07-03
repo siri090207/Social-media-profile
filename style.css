@@ -1,0 +1,81 @@
+@font-face {
+    src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
+    font-family: inter;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 8%);
+    box-sizing: border-box;;
+}
+.container{
+    display: flex;
+    background-color:hsl(0, 0%, 12%);
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    width: 450px;
+    margin-top: 7%;
+    margin-left: 35%;
+    border-radius: 10px;
+    padding: 0px;
+    color: white;
+}
+.container img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    align-self: center;
+    margin-top: 10%;
+}
+h3{
+    text-align: center;
+    font-family: inter;
+    margin-bottom: 1%;
+}
+h5{
+    color: hsl(75, 94%, 57%);
+    font-family: inter;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 1%;
+}
+p{
+    text-align: center;
+    font-family: inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 1%;
+}
+.container .links{
+    list-style-type: none;
+} 
+.container .links li a{
+    text-align: center;
+    font-family: inter;
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+    width: 80%;
+    padding: 4%;
+    background-color:hsl(0, 0%, 20%);
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.container .links li a{
+    color: white;
+    text-decoration: none;
+}
+.container .links li:hover a{
+    cursor: pointer;
+    caret-color: black;
+    background-color:hsl(75, 94%, 57%) ;
+    color: black;
+}
+.container .links li:active a{
+    cursor: pointer;
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
